@@ -1,3 +1,13 @@
+.card {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+}
+
+
 /* Slider */
 
 .slick-slide {
@@ -128,7 +138,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 765px) {
     .hero-image {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -137,7 +147,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .hero-image {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -146,6 +156,6 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .hero-image {
-        visibility: hidden;
+        display: none;
     }
 }
